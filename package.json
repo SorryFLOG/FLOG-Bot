@@ -1,0 +1,21 @@
+{
+  "name": "flog-rp-setup-bot",
+  "version": "1.0.0",
+  "description": "FLOG RP Discord Setup Bot - Automatically configures a complete FiveM RP Discord server",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "deploy": "node src/deploy-commands.js"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5"
+  },
+  "keywords": ["discord", "bot", "fivem", "roleplay", "setup"],
+  "author": "FLOG RP",
+  "license": "MIT"
+}
